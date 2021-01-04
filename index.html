@@ -2,6 +2,7 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Witsite</title>
     <link rel="icon" href="imagenes\1x\icon.ico" />
     <link rel="stylesheet" href="style.css" />
@@ -15,22 +16,22 @@
       <img
         src="imagenes\1x\logo horizontal.png"
         alt="Witsite"
-        class="nav__imagen"
       />
 
       <ul class="nav__ul">
-        <li><a href="#servicios" class="nav__ul--servicios">Servicios</a></li>
-        <li><a href="#proyectos" class="nav__ul--proyectos">Proyectos</a></li>
-        <li><a href="#contacto" class="nav__ul--contacto">Contacto</a></li>
+        <li><a href="#servicios" class="nav__ul--item">Servicios</a></li>
+        <li><a href="#proyectos" class="nav__ul--item">Proyectos</a></li>
+        <li><a href="#contacto" class="nav__ul--item">Contacto</a></li>
       </ul>
     </nav>
 
-    <div class="home">
+    <div class="home__contenedor">
+        
       <div class="boton_de_contacto--contenedor">
         <a href="#contacto" class="boton_de_contacto">CONTACTANOS</a>
       </div>
 
-      <div class="home__texto--contenedor">
+      <div class="home">
         <h3 class="home__info--texto">
           Eque porro quisquam est qui dolorem ipsum quia dolor sit amet,
           consectetur, adipisci velit que porro quisquam est qui dolorem ipsum
@@ -38,23 +39,32 @@
           est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
           velit...
         </h3>
+
+        <img
+          src="imagenes\1x\logo caja.png"
+          alt="logo_Witsite"
+          class="home__logo"
+        />
       </div>
 
-      <img
-        src="imagenes\1x\Recurso 12.png"
-        alt="background"
-        class="nav__background"
-      />
-
-      <img
-        src="imagenes\1x\logo caja.png"
-        alt="logo_Witsite"
-        class="home__logo"
-      />
     </div>
+
+    
+      <div class="contenedor__logo">
+        <img
+          src="imagenes\1x\Recurso 12.png"
+          alt="background"
+          class="home__background"
+        />
+      </div>
+    
     <div class="fondogris"></div>
-    <div class="proyectos__contenedor">
-      <h2 class="proyectos__titulo" id="proyectos">Proyectos</h2>
+
+    <div class="proyectos">
+
+      <div class="proyectos__titulo--contenedor">
+        <h2 class="proyectos__titulo">Proyectos</h2>
+      </div>
 
       <article class="proyectos__items">
         <section class="proyectos__items--1">
@@ -98,17 +108,23 @@
       </article>
     </div>
 
-    <div class="espacio">
-      <img
-        src="imagenes\1x\Recurso 13.png"
-        alt="background"
-        class="servicios__background"
-      />
 
-      <div class="servicios__contenedor">
-        <h2 class="servicios__titulo" id="servicios">Servicios</h2>
 
-        <article class="servicios__items--1">
+    <div class="contenedor__servicios">
+
+      <div class="contenedor__logo">
+        <img
+          src="imagenes\1x\Recurso 13.png"
+          alt="background"
+          class="servicios__background"
+        />
+      </div>
+
+      <div class="servicios__titulo--contenedor">
+        <h2 class="servicios__titulo">Servicios</h2>
+      </div>
+
+        <article class="servicios__items--contenedor">
           <section class="servicios__items">
             <img
               src="imagenes\1x\servicio 1.png"
@@ -118,7 +134,7 @@
             <h3>Lorem</h3>
           </section>
 
-          <section class="servicios__items--2">
+          <section class="servicios__items">
             <img
               src="imagenes\1x\servicio 2.png"
               alt="imagen"
@@ -127,7 +143,7 @@
             <h3>Lorem</h3>
           </section>
 
-          <section class="servicios__items--3">
+          <section class="servicios__items">
             <img
               src="imagenes\1x\servicio 3.png"
               alt="imagen"
@@ -139,7 +155,7 @@
       </div>
     </div>
 
-    <footer>
+    <div class="footer">
       <div class="footer__enlaces1">
         <a href="#" class="footer__enlace footer__enlace--1">Servicios</a>
         <a href="#" class="footer__enlace footer__enlace--2">Proyectos</a>
@@ -180,8 +196,13 @@
           <img src="imagenes\1x\Recurso 14.png" alt="" />
         </a>
       </div>
+      
+      <footer>
+        <div>
+          Developed And Designed By Agustin R. ©2021. All Rights Reserved.
+        </div>
+      </footer>
 
-      <h5>Developed And Designed By Agustin R. ©2021. All Rights Reserved.</h5>
-    </footer>
+    </div>
   </body>
 </html>
