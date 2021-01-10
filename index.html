@@ -1,208 +1,138 @@
 <!DOCTYPE html>
-<html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
-    <title>Witsite</title>
-    <link rel="icon" href="imagenes\1x\icon.ico" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imagenes\1x\1x\icon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="nav__container">
     <nav>
-      <img
-        src="imagenes\1x\logo horizontal.png"
-        alt="Witsite"
-      />
 
-      <ul class="nav__ul">
-        <li><a href="#servicios" class="nav__ul--item">Servicios</a></li>
-        <li><a href="#proyectos" class="nav__ul--item">Proyectos</a></li>
-        <li><a href="#contacto" class="nav__ul--item">Contacto</a></li>
+      <img src="imagenes\SVG\icon--nav.svg">
+
+      <ul>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
       </ul>
+
     </nav>
+  </div>
 
-    <div class="home__contenedor">
-        
-      <div class="boton_de_contacto--contenedor">
-        <a href="#contacto" class="boton_de_contacto">CONTACTANOS</a>
+  <div class="fondo__header--container">
+    <img src="imagenes\1x\1x\fondo--header.png" class="fondo--header">
+  </div>
+
+  <div class="header">
+    <header>
+      <img src="imagenes\SVG\logo--caja.svg">
+
+      <div class="flexcontainer--header">
+
+      <div class="boton--contacto">
+        <a href="#">CONTACTANOS</a>
       </div>
 
-      <div class="home">
-        <h3 class="home__info--texto">
-          Eque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-          consectetur, adipisci velit que porro quisquam est qui dolorem ipsum
-          quia dolor sit amet, consectetur, adipisci velit que porro quisquam
-          est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-          velit...
-        </h3>
+      <p>¿Tu negocio está iniciando? ¿Quieres expandir tu marca? En witsite tenemos la página web ideal para ti.</p>
 
-        <img
-          src="imagenes\1x\logo caja.png"
-          alt="logo_Witsite"
-          class="home__logo"
-        />
       </div>
+    </header>
+  </div>
 
-    </div>
 
+  <div class="fondo__proyectos--1" id="proyectos"></div>
+  <div class="fondo__proyectos--2"></div>
+
+
+  <h2 class="proyectos">Proyectos</h2>
+
+  <article class="proyectos--container">
+    <section>
+      <img src="imagenes\1x\1x\ilustracion--1.png">
+       <h3>Illustración</h3>
+    </section>
+
+    <section>
+      <img src="imagenes\1x\1x\ilustracion--2.png">
+       <h3>Illustración</h3>
+    </section>   
+
+    <section>
+      <img src="imagenes\1x\1x\ilustracion--3.png">
+       <h3>Illustración</h3>
+    </section>    
     
-      <div class="contenedor__logo">
-        <img
-          src="imagenes\1x\Recurso 12.png"
-          alt="background"
-          class="home__background"
-        />
+    <section>
+      <img src="imagenes\1x\1x\ilustracion--1.png">
+       <h3>Illustración</h3>
+    </section>
+  </article>
+
+
+  <div class="fondo__servicios--container">
+    <img src="imagenes\1x\1x\fondo--servicios.png" class="fondo--servicios" id="servicios">
+  </div>
+
+  <h2 class="servicios">Servicios</h2>
+
+  <article class="servicios--container">
+    <section>
+      <img src="imagenes\1x\1x\servicios--1.png" class="servicios--img">
+       <h3>Diseño de Videojuegos</h3>
+    </section>
+
+    <section>
+      <img src="imagenes\1x\1x\servicios--2.png" class="servicios--img">
+       <h3>Creación de Aplicaciones</h3>
+    </section>   
+
+    <section>
+      <img src="imagenes\1x\1x\servicios--3.png" class="servicios--img">
+       <h3>Illustración Digital</h3>
+    </section>
+
+    <section>
+      <img src="imagenes\1x\1x\servicios--4.png" class="servicios--img">
+       <h3>Diseño Web</h3>
+    </section>
+  </article>
+
+  <div class="footer" id="contacto">
+
+    <div class="form">
+      <h4>¡Envianos un mensaje!</h4>
+
+      <div>
+        <input type="text" value="" class="input-form">
+        <input type="text" value="" class="input-form">
+        <input type="text" value="" class="input-form">
       </div>
-    
-    <div class="fondogris"></div>
 
-    <div class="proyectos">
-
-      <div class="proyectos__titulo--contenedor">
-        <h2 class="proyectos__titulo">Proyectos</h2>
-      </div>
-
-      <article class="proyectos__items">
-        <section class="proyectos__items--1">
-          <img
-            src="imagenes\1x\proyecto 1.png"
-            alt="ilustracion"
-            class="proyectos__imagen--1"
-          />
-          <h3>Lorem</h3>
-          <h4>
-            eque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit...
-          </h4>
-        </section>
-
-        <section class="proyectos__items--2">
-          <img
-            src="imagenes\1x\proyecto 2.png"
-            alt="ilustracion"
-            class="proyectos__imagen--2"
-          />
-          <h3>Lorem</h3>
-          <h4>
-            eque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit...
-          </h4>
-        </section>
-
-        <section class="proyectos__items--3">
-          <img
-            src="imagenes\1x\proyecto 3.png"
-            alt="ilustracion"
-            class="proyectos__imagen--3"
-          />
-          <h3>Lorem</h3>
-          <h4>
-            eque porro quisquam est qui dolorem ipsum quia dolor sit amet,
-            consectetur, adipisci velit...
-          </h4>
-        </section>
-      </article>
+      <input type="button" value="Enviar" class="input--form">
     </div>
 
+   
 
+  </div>
 
-    <div class="contenedor__servicios">
+  <div class="redes--container">
+  <div class="redes">
+    <a href="https://github.com/" target="_blank"> <img src="imagenes\SVG\github.svg" class="img--redes"> </a>
+    <a href="https://www.facebook.com/" target="_blank"> <img src="imagenes\SVG\facebook.svg" class="img--redes"> </a>
+    <a href="https://www.linkedin.com/" target="_blank"> <img src="imagenes\SVG\linkedin.svg" class="img--redes"> </a>
+  </div>
+  </div>
 
-      <div class="contenedor__logo">
-        <img
-          src="imagenes\1x\Recurso 13.png"
-          alt="background"
-          class="servicios__background"
-        />
-      </div>
-
-      <div class="servicios__titulo--contenedor">
-        <h2 class="servicios__titulo">Servicios</h2>
-      </div>
-
-        <article class="servicios__items--contenedor">
-          <section class="servicios__items">
-            <img
-              src="imagenes\1x\servicio 1.png"
-              alt="imagen"
-              class="servicios__imagen--1"
-            />
-            <h3>Lorem</h3>
-          </section>
-
-          <section class="servicios__items">
-            <img
-              src="imagenes\1x\servicio 2.png"
-              alt="imagen"
-              class="servicios__imagen--2"
-            />
-            <h3>Lorem</h3>
-          </section>
-
-          <section class="servicios__items">
-            <img
-              src="imagenes\1x\servicio 3.png"
-              alt="imagen"
-              class="servicios__imagen--3"
-            />
-            <h3>Lorem</h3>
-          </section>
-        </article>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="footer__enlaces1">
-        <a href="#" class="footer__enlace footer__enlace--1">Servicios</a>
-        <a href="#" class="footer__enlace footer__enlace--2">Proyectos</a>
-        <a href="#" class="footer__enlace footer__enlace--3">Presupuesto</a>
-        <a href="#" class="footer__enlace footer__enlace--4">Sobre nosotros</a>
-        <a href="#" class="footer__enlace footer__enlace--5"
-          >Preguntas frecuentes</a
-        >
-      </div>
-
-      <div class="footer__enlaces1">
-        <a href="#" class="footer__enlace footer__enlace--1">Servicios</a>
-        <a href="#" class="footer__enlace footer__enlace--2">Proyectos</a>
-        <a href="#" class="footer__enlace footer__enlace--3">Presupuesto</a>
-        <a href="#" class="footer__enlace footer__enlace--4">Sobre nosotros</a>
-        <a href="#" class="footer__enlace footer__enlace--5"
-          >Preguntas frecuentes</a
-        >
-      </div>
-
-      <div class="contacto__correo">
-        <h4 class="llamadoaccion" id="contacto">ENVIANOS UN MENSAJE!!!</h4>
-        <input type="email" name="Email" id="" class="contacto__direccion" />
-        <input type="text" name="Asunto" id="" class="contacto__asunto" />
-        <input type="text" name="Mensaje" id="" class="contacto__mensaje" />
-
-        <input type="button" value="ENVIAR" class="boton__enviar" />
-      </div>
-
-      <div class="contacto__redes">
-        <a href="https://github.com/" class="footer__enlace--git" target="_blank">
-          <img src="imagenes\1x\Recurso 15.png" alt="" />
-        </a>
-        <a href="https://www.linkedin.com/" class="footer__enlace--linkedin" target="_blank">
-          <img src="imagenes\1x\Recurso 16.png" alt="" />
-        </a>
-        <a href="https://www.facebook.com/" class="footer__enlace--facebook" target="_blank">
-          <img src="imagenes\1x\Recurso 14.png" alt="" />
-        </a>
-      </div>
-      
-      <footer>
-        <div>
-          Developed And Designed By Agustin R. ©2021. All Rights Reserved.
-        </div>
-      </footer>
-
-    </div>
-  </body>
+  <div class="footer--container ">
+  <footer>Developed And Designed By Agustin R. ©2021. All Rights Reserved.</footer>
+  </div>
+  
+</body>
 </html>
